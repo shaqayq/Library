@@ -141,6 +141,14 @@ ul {
   margin-bottom: 0;
 } */
 
+.photoTitle1 h4 {
+  color: #fff;
+}
+
+.photoTitle2 h4 {
+  color: #fff;
+}
+
 .main-program > a > h4 {
   display: none;
 }
@@ -353,10 +361,6 @@ ul {
   width: 300px;
 }
 
-.photoTitle1 h4 {
-  color: #fff;
-}
-
 .photoTitle2 {
   margin-top: 0;
   opacity: 0.8;
@@ -369,11 +373,6 @@ ul {
 .photoTitle2 :hover {
   width: 300px;
 }
-
-.photoTitle2 h4 {
-  color: #fff;
-}
-/* Dektop version */
 
 @media screen and (min-width: 769px) {
   .navbar > i {

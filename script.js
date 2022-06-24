@@ -79,21 +79,21 @@ Object.keys(author).forEach((key) => {
   content.appendChild(createSection(key));
 });
 
-// function show() {
-//   document.getElementById('menu').style.display = 'block';
-//   document.getElementsByClassName('fa-bars').style.display = 'none';
-// }
+function show() {
+  document.getElementById('menu').style.display = 'block';
+  document.getElementsByClassName('fa-bars').style.display = 'none';
+}
 
-// function hide() {
-//   document.getElementById('menu').style.display = 'none';
-// }
+function hide() {
+  document.getElementById('menu').style.display = 'none';
+}
 
-// function more() {
-//   const info = document.querySelectorAll('.info');
+function more() {
+  const info = document.querySelectorAll('.info');
 
-//   info.forEach((element) => {
-//     element.style.display = 'flex';
-//   });
+  info.forEach((element) => {
+    element.style.display = 'flex';
+  });
 
-//   document.querySelector('.moreDetail').style.display = 'none';
-// }
+  document.querySelector('.moreDetail').style.display = 'none';
+}
