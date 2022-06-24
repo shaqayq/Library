@@ -21,14 +21,14 @@ ul {
 
 .home-content {
   background-image: url(./image/bg.jpg);
-  height: 554px;
+  height: 581px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 0 0 0 45px;
+  margin: 0 0 0 24px;
   height: 506px;
 }
 
@@ -45,7 +45,7 @@ ul {
 
 .content > p {
   background-color: #eaeaeb;
-  width: 506px;
+  width: 415px;
   border-color: #f8f9fa;
 }
 
@@ -303,7 +303,7 @@ ul {
 
 .about > p {
   background-color: #fff;
-  width: 506px;
+  width: 415px;
   border-color: #f8f9fa;
 }
 
@@ -313,7 +313,7 @@ ul {
 
 .main-about {
   text-align: center;
-  height: 200px;
+  height: 235px;
 }
 
 .about-desc {
@@ -564,7 +564,7 @@ ul {
   }
 
   .home-content {
-    height: 550px;
+    height: 575px;
   }
 
   .about-desc > h5 {
@@ -581,6 +581,7 @@ ul {
   }
 
   .photos {
+    height: 503px;
     margin-top: 57px;
   }
 
