@@ -10,8 +10,11 @@
 - Major languages: HTML ,CSS , JS
 
 ## Live Demo (if available)
+[Live Demo Link](https://shaqayq.github.io/Library/)
 
-
+# This repo has a video on its readme :
+[Watch the video](https://www.loom.com/share/15d746eb60d64ddaaf6e57c45e237653)
+ 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
