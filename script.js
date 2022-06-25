@@ -2,13 +2,13 @@ const author = {
   a1: {
     name: 'Stephen Edwin',
     pic: './image/stephen.jpg',
-    introduction: 'Stephen Edwin King (born September 21, 1947) is an American author of horror, supernatural fiction, suspense, crime, science-fiction, and fantasy novels.',
+    introduction: 'Stephen Edwin King (born September 21, 1947) is an American author of horror, supernatural fiction, suspense.',
     books: 'the Alex Cross, Michael Bennett, Womens Murder Club, Maximum Ride, Daniel X, NYPD Red, Witch and Wizard,',
   },
   a2: {
     name: 'Danielle Steel',
     pic: './image/DanielleSteel.jpg',
-    introduction: 'an American writer, best known for her romance novels. She is the bestselling author alive and the fourth-bestselling fiction author of all time, with over 800 million copies sold',
+    introduction: 'an American writer, best known for her romance novels. She is the bestselling author ',
     books: 'the Alex Cross, Michael Bennett, Womens Murder Club, Maximum Ride, Daniel X, NYPD Red, Witch and Wizard,',
   },
   a3: {
@@ -40,9 +40,13 @@ const author = {
 const content = document.querySelector('.details');
 
 function createSection(key) {
-  const info = document.createElement('div');
+  const info = document.createElement('section');
   info.classList.add('info');
   content.appendChild(info);
+
+  const cheesBg = document.createElement('div');
+  cheesBg.classList.add('chess-bg');
+  info.appendChild(cheesBg);
 
   const image = document.createElement('img');
   image.classList.add('profile');
@@ -58,7 +62,7 @@ function createSection(key) {
   descriptionSide.appendChild(name);
   name.innerHTML = author[key].name;
 
-  const intro = document.createElement('h6');
+  const intro = document.createElement('p');
   intro.classList.add('intro');
   descriptionSide.appendChild(intro);
   intro.innerHTML = author[key].introduction;
@@ -66,7 +70,7 @@ function createSection(key) {
   const space = document.createElement('hr');
   descriptionSide.appendChild(space);
 
-  const book = document.createElement('h6');
+  const book = document.createElement('p');
   book.classList.add('book');
   descriptionSide.appendChild(book);
   book.innerHTML = author[key].books;

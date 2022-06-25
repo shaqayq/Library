@@ -59,8 +59,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 -Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This design is credited by Cindy Shin
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](Cindy Shin) licensed.

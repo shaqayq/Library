@@ -2,20 +2,30 @@
   display: none;
 }
 
-.navbar {
+.headnavbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   margin: 10px 0 0 10px;
+  background-color: #f8f8f8;
+  width: 100%;
+  margin-left: 0;
 }
 
-.navbar > i {
+.headnavbar > i {
   font-size: 40px;
 }
 
-.navbar > img,
+.headnavbar > img,
 ul {
   display: none;
 }
 
-.navbar > a {
+.headnavbar > a {
   display: block;
 }
 
@@ -32,21 +42,25 @@ ul {
   height: 506px;
 }
 
-.content > h5 {
+.content > .headP {
   color: #ec5242;
   font-size: 31px;
-  padding-top: 75px;
+  margin-top: 108px;
 }
 
-.content > h3 {
+.content > h1 {
   color: #ec5242;
   font-size: 59px;
 }
 
-.content > p {
+.content > .Cont-details {
   background-color: #eaeaeb;
   width: 415px;
   border-color: #f8f9fa;
+}
+
+.bottom-head {
+  font-size: 20px;
 }
 
 .main-program {
@@ -73,6 +87,42 @@ ul {
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  row-gap: 20px;
+}
+
+.book-list > article {
+  display: flex;
+  flex-direction: row;
+  column-gap: 49px;
+  align-items: center;
+  width: 80%;
+  height: 95px;
+  background-color: #342e2e;
+  opacity: 0.9;
+}
+
+.moreDetail > h6 {
+  text-align: center;
+  color: #2a2828;
+}
+
+.more h6 {
+  text-align: center;
+  color: #fff;
+}
+
+.book-list > article > h6 {
+  color: #ec5242;
+}
+
+.book-list > article > i {
+  color: #fff;
+  margin-left: 20px;
+  font-size: 38px;
+}
+
+.book-list > article > p {
+  color: #fff;
 }
 
 .main-program ul {
@@ -107,16 +157,6 @@ ul {
 .main-program ul li i {
   font-size: 46px;
   margin-left: 41px;
-}
-
-.moreDetail > h6 {
-  text-align: center;
-  color: #2a2828;
-}
-
-.more h6 {
-  text-align: center;
-  color: #fff;
 }
 
 .main-program ul li h6 {
@@ -181,8 +221,8 @@ ul {
 }
 
 .intro {
+  font-weight: bold;
   color: #ec5242;
-  font-size: 14px;
 }
 
 .book {
@@ -191,6 +231,17 @@ ul {
 
 .profile {
   height: 107px;
+  position: relative;
+}
+
+.chess-bg {
+  position: absolute;
+  background-image: url(./image/photobg.png);
+  background-size: cover;
+  width: 99px;
+  height: 99px;
+  margin-top: -14px;
+  margin-left: -14px;
 }
 
 .descSide > hr {
@@ -301,7 +352,7 @@ ul {
   margin-left: 0;
 }
 
-.about > p {
+.about > .aboutp {
   background-color: #fff;
   width: 415px;
   border-color: #f8f9fa;
@@ -335,7 +386,7 @@ ul {
 }
 
 .photos {
-  height: 465px;
+  height: 504px;
   text-align: center;
 }
 
@@ -375,11 +426,15 @@ ul {
 }
 
 @media screen and (min-width: 769px) {
-  .navbar > i {
+  .headnavbar {
+    background-color: #fff;
+  }
+
+  .headnavbar > i {
     display: none;
   }
 
-  .navbar > img,
+  .headnavbar > img,
   ul {
     display: flex;
   }
@@ -404,24 +459,24 @@ ul {
     padding-right: 19px;
   }
 
-  .navbar > a {
+  .headnavbar > a {
     margin-left: 12%;
   }
 
-  .navbar > ul > li > a {
+  .headnavbar > ul > li > a {
     text-decoration: none;
     color: #ec5242;
   }
 
-  .navbar > a > img {
+  .headnavbar > a > img {
     height: 41px;
   }
 
-  .navbar > ul {
+  .headnavbar > ul {
     margin-right: 14%;
   }
 
-  .navbar > ul > li {
+  .headnavbar > ul > li {
     font-size: 20px;
     margin-left: 30px;
   }
@@ -431,20 +486,26 @@ ul {
     padding: 4px;
   }
 
+  .about > .aboutp {
+    margin-bottom: 0;
+    width: 52%;
+    font-size: 23px;
+  }
+
   .content {
     margin: 0 0 0 16%;
     row-gap: 26px;
   }
 
-  .content > h5 {
+  .content > .headP {
     font-size: 52px;
   }
 
-  .content > h3 {
+  .content > h1 {
     font-size: 59px;
   }
 
-  .content > p {
+  .content > .Cont-details {
     font-size: 25px;
     width: 57%;
   }
@@ -468,21 +529,42 @@ ul {
     padding-top: 48px;
   }
 
-  .book-list > ul {
+  .book-list > article {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 17%;
+    height: 317px;
     padding: 2%;
     row-gap: 8px;
+    background-color: #342e2e;
+    opacity: 0.9;
+  }
+
+  .about > p {
+    margin-top: 31px;
+  }
+
+  .about > h3 {
+    padding: 52px;
+  }
+
+  .about > h5 {
+    display: none;
   }
 
   .about > h6 {
     display: none;
   }
 
-  .book-list > ul > li > h6 {
+  .book-list > article > h6 {
     font-size: 22px;
+    color: #ec5242;
+  }
+
+  .book-list > article > i {
+    font-size: 55px;
+    color: #fff;
   }
 
   .about-desc > p {
@@ -490,8 +572,9 @@ ul {
     width: 600px;
   }
 
-  .book-list > ul > li > p {
+  .book-list > article > p {
     font-size: 19px;
+    color: #fff;
   }
 
   .photoTitle1,
@@ -530,9 +613,24 @@ ul {
 
   .profile {
     height: 151px;
+    position: relative;
   }
 
-  .intro,
+  .chess-bg {
+    position: absolute;
+    background-image: url(./image/photobg.png);
+    background-size: cover;
+    width: 150px;
+    height: 139px;
+    margin-top: -17px;
+    margin-left: -18px;
+  }
+
+  .intro {
+    font-weight: bold;
+    font-size: 17px;
+  }
+
   .book {
     font-size: 17px;
   }
@@ -547,6 +645,7 @@ ul {
 
   .about {
     margin: 0;
+    row-gap: 0;
   }
 
   .about > hr {
