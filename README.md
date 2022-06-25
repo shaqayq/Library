@@ -1,40 +1,39 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+#  Library
 
-> Description the project.
+> In this project I built the library project for mobile and desktop version.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages: HTML ,CSS , JS
 
 ## Live Demo (if available)
+[Live Demo Link](https://shaqayq.github.io/Library/)
 
-[Live Demo Link](https://livedemo.com)
-
-
+# This repo has a video on its readme :
+[Watch the video](https://www.loom.com/share/15d746eb60d64ddaaf6e57c45e237653)
+ 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+Before attempting to get a copy of this, you should know(have) how to do the following:
+- How to use the command line interface(CLI)
+- Know how to navigate directories or folders at the CLI.
+- Know how to get the URL(https/ssh) of a repository on GitHub.
+- You should have a code editor installed, preferably VsCode.
 
 ### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+ In desired folder or directory in the CLI, run the command:
+>                   git clone (https/ssh)URL
+-Navigate into the cloned folder or repository by running the command:
+>                   cd <folder/name of the repository>
+- If VsCode is your default code editor, run:
+>                   code .
+- You are all setup!
 
 
 
@@ -42,15 +41,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Shaqayq)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
 
 ## 🤝 Contributing
 
@@ -64,10 +58,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
+-Hat tip to anyone whose code was used
+- This design is credited by Cindy Shin
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](Cindy Shin) licensed.
